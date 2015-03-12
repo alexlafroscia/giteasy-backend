@@ -1,0 +1,18 @@
+{
+  "name": "giteasy-server",
+  "version": "1.0.0",
+  "description": "Endpoints for GitEasy",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.2",
+    "http-proxy": "^1.8.1",
+    "newrelic": "^1.17.2",
+    "query-string": "^1.0.0"
+  }
+}
